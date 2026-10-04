@@ -61,7 +61,7 @@ st.markdown(
     """
 **Elftes und letztes Stück der Lineare-Programmierung-Reihe.** Innere Punkte (Stück 8) und PDLP (Stück 10) enden im **Inneren**: eine Näherung, keine Ecke, keine Basis, keine exakten Duale, kein Warmstart. Wer Schattenpreise, Ranging
 oder eine Neuoptimierung braucht, braucht die Ecke zurück. **Crossover** (Megiddo 1991, Bixby & Saltzman 1994) erkennt aus der Näherung eine **Basis** (der Indikator x gegen s sagt, welche Variablen positiv bleiben) und räumt mit wenigen
-**Simplex-Pivots** zur exakten Ecke auf. Vier Fragen, alle gemessen: **(1) Der Weg** - was passiert von der Näherung bis zur Ecke? **(2) Die Basis** - wie gut wird sie erkannt, wie viele Pivots bleiben? **(3) Das Ergebnis** - wie genau, wie viele
+**Simplex-Pivots** zur exakten Ecke auf. Fünf Fragen, alle gemessen: **(1) Der Weg** - was passiert von der Näherung bis zur Ecke? **(2) Die Basis** - wie gut wird sie erkannt, wie viele Pivots bleiben? **(3) Das Ergebnis** - wie genau, wie viele
 Nichtnullen? **(4) Wann welches Verfahren** - Simplex allein, Innere Punkte oder PDLP mit Crossover, und der Warmstart. **(5) Grenzen** - Plateau, Entartung, Zustände der Crash-Basis.
 """
 )
@@ -328,6 +328,6 @@ Implementiert in `xov_basis.py` (Indikator, Crash-Basis, Tableau, primaler und d
 st.markdown("---")
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zur Reihe: [Lineare Programmierung: vom Tableau zum Crossover](https://sebastianhanisch.net/konzepte-lineare-programmierung.html)."
 )

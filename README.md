@@ -104,4 +104,4 @@ Tests: `pip install -r requirements-dev.txt` und `python -m pytest tests/ -W err
 - Bixby, R. E., & Saltzman, M. J. (1994). *Recovering an optimal LP basis from an interior point solution.* Operations Research Letters 15(4), 169–178.
 - Applegate, D., Díaz, M., Hinder, O., Lu, H., Lubin, M., O'Donoghue, B., & Schudy, W. (2021). *Practical large-scale linear programming using primal-dual hybrid gradient.* Advances in Neural Information Processing Systems 34 (PDLP als Quelle, Stück 10).
 
-Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning.
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Lineare Programmierung: vom Tableau zum Crossover](https://sebastianhanisch.net/konzepte-lineare-programmierung.html).
