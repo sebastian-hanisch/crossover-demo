@@ -145,7 +145,7 @@ def test_permalink_accepts_valid_values():
     ss = at.session_state
     assert (ss["kind_select"], ss["m_slider"], ss["n_slider"], ss["seed_input"], ss["density_select"], ss["source_select"], ss["eps_select"], ss["scale_select"], ss["change_select"], ss["xov_step"]) == (
         "plateau", 10, 9, 7, 1, "ipm", 3, 2, 2, 4)
-    assert at.query_params["source"] == ["ipm"] and at.query_params["change"] == ["2"]
+    assert at.query_params["source"] in (["ipm"], "ipm") and at.query_params["change"] in (["2"], "2")
 
 
 def test_sidebar_shows_the_controls_that_belong_to_the_instance_and_the_step():
