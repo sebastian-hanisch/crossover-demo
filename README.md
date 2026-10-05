@@ -80,7 +80,7 @@ Presets (12): Entartete Ecke: ein Pivot, Zentrum: aus 10^-2 wird exakt, Grobe Qu
 - **Synthetische, gutartige Instanzen.** Der Simplex braucht auf den Zufallsinstanzen wenige Pivots; schwere Instanzen (Netlib, MIPLIB) hat die Demo nicht. Deshalb "lohnt sich Crossover nie" nur für diese Familie.
 - **Warmstart nur in der einfachsten Form.** Innere Punkte: alter Punkt um einen festen Betrag ins Innere verschoben (10⁻³ oder 1); bessere Verfahren (Zentrierung, homogene Einbettung) sind nicht gebaut. PDLP: alter Punkt (x, y) als Start.
 - **Plattformabhängigkeit.** Pivotzahlen bei Entartung, Iterationszahlen der Quellen und Kreuzungspunkte können unter Windows und Linux um einzelne Werte abweichen; die Tests prüfen dort Bänder. Ganzzahl-Logik (2ⁿ − 1 Pivots des Würfels, höchstens m Nichtnullen) ist exakt.
-- **Die LP-Themenseite der Website** (Überblick über alle elf Stücke) ist noch nicht gebaut.
+- **Überblick über alle elf Stücke:** die LP-Themenseite der Website, [Lineare Programmierung: vom Tableau zum Crossover](https://sebastianhanisch.net/konzepte-lineare-programmierung.html).
 
 ## Verifikation
 
